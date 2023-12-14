@@ -1,0 +1,79 @@
+PODS:
+  - Adyen (5.1.0):
+    - Adyen/Actions (= 5.1.0)
+    - Adyen/Card (= 5.1.0)
+    - Adyen/Components (= 5.1.0)
+    - Adyen/Core (= 5.1.0)
+    - Adyen/DropIn (= 5.1.0)
+    - Adyen/Encryption (= 5.1.0)
+    - Adyen/Session (= 5.1.0)
+  - Adyen/Actions (5.1.0):
+    - Adyen/Core
+    - Adyen3DS2 (= 2.3.0)
+  - Adyen/Card (5.1.0):
+    - Adyen/Core
+    - Adyen/Encryption
+  - Adyen/Components (5.1.0):
+    - Adyen/Core
+    - Adyen/Encryption
+  - Adyen/Core (5.1.0):
+    - AdyenNetworking (= 1.0.0)
+  - Adyen/DropIn (5.1.0):
+    - Adyen/Actions
+    - Adyen/Card
+    - Adyen/Components
+    - Adyen/Core
+    - Adyen/Encryption
+  - Adyen/Encryption (5.1.0)
+  - Adyen/Session (5.1.0):
+    - Adyen/Actions
+    - Adyen/Core
+  - Adyen/SwiftUI (5.1.0)
+  - Adyen3DS2 (2.3.0)
+  - adyen_flutter_dropin (1.1.0):
+    - Adyen (= 5.1)
+    - Adyen/SwiftUI (= 5.1)
+    - Flutter
+  - AdyenNetworking (1.0.0)
+  - Flutter (1.0.0)
+  - flutter_inappwebview (0.0.1):
+    - Flutter
+    - flutter_inappwebview/Core (= 0.0.1)
+    - OrderedSet (~> 5.0)
+  - flutter_inappwebview/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 5.0)
+  - OrderedSet (5.0.0)
+
+DEPENDENCIES:
+  - adyen_flutter_dropin (from `.symlinks/plugins/adyen_flutter_dropin/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Adyen
+    - Adyen3DS2
+    - AdyenNetworking
+    - OrderedSet
+
+EXTERNAL SOURCES:
+  adyen_flutter_dropin:
+    :path: ".symlinks/plugins/adyen_flutter_dropin/ios"
+  Flutter:
+    :path: Flutter
+  flutter_inappwebview:
+    :path: ".symlinks/plugins/flutter_inappwebview/ios"
+
+SPEC CHECKSUMS:
+  Adyen: ed928cea0dd690223b423e5d04381900a4cfc199
+  Adyen3DS2: 12bcf3b98f62c4aa1abb14772629a8eb0d2a62b4
+  adyen_flutter_dropin: f42d24ab421cf643e2b4bd286e6cb3871988769f
+  AdyenNetworking: 14567bd00c00ba2e2580a904708c7ba5f010b1f9
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_inappwebview: 3d32228f1304635e7c028b0d4252937730bbc6cf
+  OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.14.3
